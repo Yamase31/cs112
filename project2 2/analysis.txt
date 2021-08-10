@@ -1,0 +1,9 @@
+Write a short summary of your profiling experiments
+
+In selectionSort() the code goes through the list and it counts the number comparisons and "swaps" the "sorting" of the code goes through. This helps to visualize the run time of the code . This specific function is a linked structure, so the run time is O(N^2). This is the slowest way. It was annoying. 
+
+In quickSort(), a recursive function is used to go through and organize the list. This creates a bounty and partition to pivot around. While doing this it counts the comparisons and swapping of values to visualize the run time of the code. This specific function is a binary search so the run time is (nlogn). This is faster than selectionSort()
+
+In insertionSort(), looks at the values around it and moves the items in the list until the 'i' value is less than the ones before that. While doing this it counts the comparisons and swapping of values to visualize the run time of the code. The run time is (nlogn). This and quickSort() both have the same run time and are faster than selectionSort()
+
+
